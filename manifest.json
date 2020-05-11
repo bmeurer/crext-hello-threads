@@ -1,0 +1,10 @@
+{
+	"description": "Testing multithreaded Emscripten generated code",
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Emscripten Hello Threads",
+	"background": {
+		"scripts": ["hello-threads.js"]
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
